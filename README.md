@@ -32,7 +32,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  latlng_picker: ^0.0.1
+  latlng_picker: ^1.0.0
   google_maps_flutter: ^2.5.0
 ```
 
