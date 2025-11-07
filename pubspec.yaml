@@ -1,0 +1,23 @@
+name: latlng_picker
+description: "A beautiful Google Maps location latitude and longitude picker with physics-based animations. Features an animated pin with bounce effects, elevation, and haptic feedback."
+version: 1.0.0
+homepage: https://github.com/edemekong/latlng_picker
+repository: https://github.com/edemekong/latlng_picker
+issue_tracker: https://github.com/edemekong/latlng_picker/issues
+
+environment:
+  sdk: ^3.9.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+
