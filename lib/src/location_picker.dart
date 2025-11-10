@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:map_latlng_picker/latlng_picker.dart' show PinState;
+import 'package:map_latlng_picker/map_latlng_picker.dart' show PinState;
 import 'animated_pin.dart';
 
 class AnimatePinData {
@@ -210,7 +210,7 @@ class _LatLngLocationPickerState extends State<LatLngLocationPicker> {
         }
 
         final AnimatePinData? pinData = widget.pinData;
-        
+
         final bool isPanning =pinData?.isElevated ?? _isPanning;
         final PinState? state =pinData?.state;
         final PinState effectiveState = state ?? (isPanning ? PinState.elevated : PinState.idle);
